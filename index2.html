@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!--Просто нашел и скопировал ((( -->
+    <h1 class="Dummy">Dummy Doc</h1>
+    <img src="https://js.cx/clipart/boat.png" id="boat" />
+
+    <script>
+      boat.onclick = function () {
+        this.onclick = null;
+
+        let times = 1;
+
+        function go() {
+          if (times % 2) {
+            boat.classList.remove("back");
+            boat.style.marginLeft = 100 * times + 200 + "px";
+          } else {
+            boat.classList.add("back");
+            boat.style.marginLeft = 100 * times - 200 + "px";
+          }
+        }
+
+        go();
+
+        boat.addEventListener("transitionend", function () {
+          times++;
+          go();
+        });
+      };
+    </script>
+  </body>
+</html>

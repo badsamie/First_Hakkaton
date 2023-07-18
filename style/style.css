@@ -1,0 +1,237 @@
+body {
+  background-color: #292a2a;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1400px;
+  height: 692px;
+  margin-top: 100px;
+}
+.name {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a4a5a6;
+}
+.surname {
+  color: #e0a80d;
+  font-size: 68px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a4a5a6;
+  cursor: pointer;
+}
+.navbar button {
+  width: 160px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: rgba(219, 153, 30, 0.853);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: #979899;
+}
+
+.info {
+  display: flex;
+  color: #a4a5a6;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+/* Старался сделал что мог  */
+.bishkek:hover {
+  color: #e0a80d;
+}
+.oshka:hover {
+  color: #e0a80d;
+}
+.badsamie:hover {
+  color: #e0a80d;
+}
+.collection:hover {
+  color: #e0a80d;
+}
+.FIO p:hover {
+  color: #e0a80d;
+}
+.navbar img {
+  width: 216px;
+  height: 216px;
+  border-radius: 100%;
+  background-color: rgba(219, 153, 30, 0.853);
+}
+.FIO {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro p {
+  display: flex;
+  color: #979899;
+  margin: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.intro span {
+  display: flex;
+  flex-direction: column;
+  color: #979899;
+  font-size: 18px;
+  margin-left: 640px;
+}
+.experiense .box {
+  display: flex;
+  width: 350px;
+  height: 200px;
+}
+.experiense span {
+  margin-left: 642px;
+  color: #a4a5a6;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.experiense .number {
+  color: rgba(219, 153, 30, 0.853);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.experiense h3 {
+  display: flex;
+  font-style: italic;
+  font-size: 17px;
+  color: #a4a5a6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.experiense p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #979899;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container2 .image {
+  display: flex;
+  width: 320px;
+  height: 240px;
+}
+/* Копипаст помог )) */
+#im1 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+#im2 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+#im3 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+#im4 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+#im5 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+#im6 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.container2 {
+  display: flex;
+  width: 890px;
+  height: 890px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 150px;
+}
+.text h3 {
+  color: #a4a5a6;
+  font-size: 16;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+  margin-left: 20px;
+}
+.text p {
+  color: #979899;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Portfolio {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.finish {
+  display: flex;
+  margin: 0 auto;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+.finish span {
+  font-size: 54px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a4a5a6;
+}
+.finish p {
+  font-size: 54px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e0a80d;
+}
+.icon {
+  display: flex;
+  margin-left: 990px;
+}
+#boat {
+  margin-left: 0;
+  cursor: pointer;
+  transition: margin-left 3s ease-in-out;
+}
+.Dummy {
+  color: wheat;
+}
+.back {
+  transform: scaleX(-1);
+  filter: fliph;
+}
